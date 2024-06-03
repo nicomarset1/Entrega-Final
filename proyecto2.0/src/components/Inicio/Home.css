@@ -1,0 +1,36 @@
+.home{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1{
+    font-size: 40px;
+    margin-top: -120px;
+    margin-bottom: 30px;
+}
+
+.home p{
+    font-size: 20px;
+}
+
+.b-home{
+    font-size: 30px;
+    color: white;
+    background-color: #000C4F;
+    margin-top: 40px;
+    width: 280px;
+    height: 55px;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.b-home:hover{
+    transition: .5s;
+    color: #000C4F;
+    border: #000C4F 1px solid;
+    background-color: white;
+}
