@@ -23,7 +23,7 @@ const ItemListContainer = () => {
                     return { ...doc.data(), id: doc.id}
                 })
             )
-        })
+        }) 
         setTitulo(
             categoria
         )

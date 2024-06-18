@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const Cart = () => {
 
     const { cart, totalPrice, emptyCart, deleteProduct } = useContext(CartContext)
-
+ 
     return (
         <div className="cart-container">
             <h1 className="">Carrito de compras</h1>

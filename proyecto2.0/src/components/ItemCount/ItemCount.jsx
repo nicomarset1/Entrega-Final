@@ -12,4 +12,4 @@ const ItemCount = ({quantity, sumar, restar, addToCart}) => {
     )
 }
 
-export default ItemCount
+export default ItemCount 

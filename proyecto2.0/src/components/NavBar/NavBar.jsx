@@ -37,7 +37,7 @@ const NavBar = () => {
             <li><Link to={"/products/Sweater"} className='dropdown-item'>Sweaters</Link></li>
           </ul>
         </li>
-      </ul>
+      </ul> 
       <CartWidget/>
     </div>
   </div>

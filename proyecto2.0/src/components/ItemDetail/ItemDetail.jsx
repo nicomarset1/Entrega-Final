@@ -16,7 +16,7 @@ const ItemDetail = ( {item} ) => {
     const sumar = () => {
         quantity < item.stock && setQuantity(quantity + 1)
     }
-
+ 
     return (
             <div className="detail-container">
                 <div className="prod-img">

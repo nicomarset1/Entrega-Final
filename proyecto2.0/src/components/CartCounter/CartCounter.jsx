@@ -5,4 +5,4 @@ const CartCounter = () => {
     )
 }
 
-export default CartCounter
+export default CartCounter 

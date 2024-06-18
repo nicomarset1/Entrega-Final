@@ -7,7 +7,7 @@ import './Checkout.css'
 import { Link } from "react-router-dom"
 
 const Checkout = () => {
-
+ 
     const [orderId, setOrderId] = useState("")
 
     const { cart, totalPrice, emptyCart } = useContext(CartContext)
